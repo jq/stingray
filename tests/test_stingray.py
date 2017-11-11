@@ -26,7 +26,7 @@ def test_content(response):
     # from bs4 import BeautifulSoup
     # assert 'GitHub' in BeautifulSoup(response.content).title.string
 
-
+# if you hit unit test error in python3, check https://stackoverflow.com/questions/36651680/click-will-abort-further-execution-because-python-3-was-configured-to-use-ascii
 def test_command_line_interface():
     """Test the CLI."""
     runner = CliRunner()
